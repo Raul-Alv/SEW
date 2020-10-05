@@ -1,0 +1,22 @@
+h1, h2, h3{
+    color:purple;
+    font-weight: 1.3em;
+}
+
+table, th, td{
+    border: 1px solid black;
+    margin:0 auto;
+}
+
+th, td{
+    text-align:center;
+}
+
+.time{
+    color:red;
+    font-size: 0.7em;
+}
+
+body{
+    font-family: Helvetica;
+}
