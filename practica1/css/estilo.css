@@ -29,7 +29,7 @@ main{
     float: left;
     margin-left: 100px;
     border: 2px solid lightsteelblue;
-    width: 10%;
+    width: 200px;
 }
 
 #ab{
@@ -38,7 +38,6 @@ main{
 
 #banda{
     float:right;
-    
     width:40%;
 }
 
@@ -69,8 +68,8 @@ p{
 
 .marty{
     grid-area:martyImg;
-    height:80%;
-    height:auto;
+    height:100%;
+    width:auto;
 }
 
 .doc-des{
@@ -88,7 +87,7 @@ p{
 
 .george{
     grid-area:georgeImg;
-    width:80%;
+    width:90%;
     height:auto;
 }
 
@@ -108,16 +107,25 @@ p{
 
 .biff{
     grid-area:biffImg;
-    
+    height:100%;
+    width:auto;
 }
 
 nav{
     overflow:hidden;
-    background-color: aqua;
+    background-color: lavender;
+    text-align: center;
+    height:50px;
 }
 
 body{
     font-family: Helvetica, sans-serif;
+    background-color: darkgrey;
 }
 
-
+footer{
+    height:50px;
+    background-color: lightslategray;
+    text-align: center;
+    font-size: 14px;
+}
