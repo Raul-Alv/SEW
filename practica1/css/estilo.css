@@ -1,12 +1,12 @@
 h1, h2, h3{
     color:purple;
-    /*font-size: 1.3em;*/
 }
 
 h1{
     text-align: center;
 }
 
+/* Formato de tabla */
 table, th, td{
     border: 1px solid black;
     /*margin:0 auto;*/
@@ -17,6 +17,7 @@ th, td{
     background-color: azure;
 }
 
+/* Color del tiempo en la tabla de musica */
 .time{
     color:red;
     font-size: 0.7em;
@@ -38,6 +39,7 @@ p{
     text-align: justify;
 }
 
+/* GRID DE PERSONAJES*/
 .wrapper{
     display:grid;
     grid-template-columns: repeat(4,1fr);
@@ -99,6 +101,8 @@ p{
     height:100%;
     width:auto;
 }
+  
+/* FIN DE GRID */
 
 nav{
     overflow:hidden;
