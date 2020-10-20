@@ -36,15 +36,6 @@ main{
     background-color: lightyellow;
 }
 
-#marty-des #marty{
-    float:right;
-}
-
-#marty-des{
-    background-color: lightyellow;
-    float:left;
-}
-
 #banda{
     float:right;
     
@@ -53,6 +44,71 @@ main{
 
 li{
     margin-bottom: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+.wrapper{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 
+        "martyTxt martyTxt martyTxt martyImg"
+        "docImg docTxt docTxt docTxt"
+        "georgeTxt georgeTxt georgeTxt georgeImg"
+        "lorraineImg lorraineTxt lorraineTxt lorraineTxt" 
+        "biffTxt biffTxt biffTxt biffImg";
+}
+
+.marty-des{
+    grid-area:martyTxt;
+}
+
+.marty{
+    grid-area:martyImg;
+    height:80%;
+    height:auto;
+}
+
+.doc-des{
+    grid-area:docTxt;
+}
+
+.doc{
+    grid-area:docImg;
+    
+}
+
+.george-des{
+    grid-area:georgeTxt;
+}
+
+.george{
+    grid-area:georgeImg;
+    width:80%;
+    height:auto;
+}
+
+.lorraine-des{
+    grid-area:lorraineTxt;
+}
+
+.lorraine{
+    grid-area:lorraineImg;
+    width:80%;
+    height:auto;
+}
+
+.biff-des{
+    grid-area:biffTxt;
+}
+
+.biff{
+    grid-area:biffImg;
+    
 }
 
 nav{
