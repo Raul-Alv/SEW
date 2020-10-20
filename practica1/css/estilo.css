@@ -25,20 +25,12 @@ main{
     
 }
 
-#protag{
-    float: left;
-    margin-left: 100px;
-    border: 2px solid lightsteelblue;
-    width: 200px;
-}
-
 #ab{
     background-color: lightyellow;
 }
 
 #banda{
-    float:right;
-    width:40%;
+    
 }
 
 li{
