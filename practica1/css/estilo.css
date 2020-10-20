@@ -59,7 +59,7 @@ p{
 
 .marty{
     grid-area:martyImg;
-    height:100%;
+    height:350px;
     width:auto;
 }
 
@@ -69,7 +69,8 @@ p{
 
 .doc{
     grid-area:docImg;
-    
+    height:auto;
+    width:450px;
 }
 
 .george-des{
@@ -78,8 +79,8 @@ p{
 
 .george{
     grid-area:georgeImg;
-    width:90%;
-    height:auto;
+    width:400px;
+    height:350px;
 }
 
 .lorraine-des{
@@ -88,7 +89,7 @@ p{
 
 .lorraine{
     grid-area:lorraineImg;
-    width:80%;
+    width:400px;
     height:auto;
 }
 
@@ -98,7 +99,7 @@ p{
 
 .biff{
     grid-area:biffImg;
-    height:100%;
+    height:350px;
     width:auto;
 }
   
