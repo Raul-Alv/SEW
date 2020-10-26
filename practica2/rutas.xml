@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ruta-senderismo SYSTEM "senderismo.dtd">
+
+<ruta>
+    <etapa nombre="etapa1">
+        <inicio>Kathmandu</inicio>
+        <alturaInicial>760m</alturaInicial>
+        <fin>Syange</fin>
+        <alturaFinal>1100m</alturaFinal>
+        <duracion>9,30h</duracion>
+        <personasAdecuadas>Cualquier persona</personasAdecuadas>
+        <direccionSalida>Salida direccion Besi Sahar</direccionSalida>
+        <latitud>27º 42' 32.39" N</latitud>
+        <longitud>85º 17' 14.40" E</longitud>
+        <referencias>
+            <linkSitio>https://es.wikipedia.org/wiki/Swayambhunath</linkSitio>
+            <linkSitio>https://directiatravel.com/viajes-india/guia/itinerario-norte/nepal/katmandu</linkSitio>
+            <linkSitio>https://en.wikipedia.org/wiki/Besisahar</linkSitio>
+        </referencias>
+        <recomendacion>6</recomendacion>
+        <hitos>
+            <hito name="Swayambhunath">
+                <descripcion>Complejo religioso en Kathmandu</descripcion>
+            </hito>
+        </hitos>
+    </etapa>
+</ruta>
