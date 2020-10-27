@@ -9,7 +9,7 @@
         <alturaFinal>1100m</alturaFinal>
         <duracion>5,30h</duracion>
         <personasAdecuadas>Personas acostumbradas a largos caminos</personasAdecuadas>
-        <direccionSalida></direccionSalida>
+        <direccionSalida>Norte bordeando el río</direccionSalida>
         <latitud>28º 14' 12.32" N</latitud>
         <longitud>84º 22' 18.27" E</longitud>
         <referencias>
@@ -36,6 +36,63 @@
                     <img width="1024" height="684" alt="Khudi Bridge" src="src/khudi-bridge.jpg"/>
                 </svg>
             </hito>
+
+            <hito name="Presa del rio Marsyangdi">
+                <descripcion>Presa situada en el rio Marsyangdi, usada para generar electricidad</descripcion>
+                <latitud>28º 18' 43.65" N</latitud>
+                <longitud>84º 24' 0.79" E</longitud>
+                <svg>
+                    <img width="590" height="443" alt="Presa" src="src/marsyangdi.jpg"/>
+                </svg>
+            </hito>
         </hitos>
     </etapa>
+
+    <etapa nombre="etapa2">
+        <inicio>Syange</inicio>
+        <alturaInicial>1100m</alturaInicial>
+        <fin>Tal</fin>
+        <alturaFinal>1700m</alturaFinal>
+        <duracion>5h</duracion>
+        <personasAdecuadas>Personas deportistas</personasAdecuadas>
+        <direccionSalida>Direccion norte</direccionSalida>
+        <latitud>28º 23' 12.00" N</latitud>
+        <longitud>84º 24' 7.40" E</longitud>
+        <referencias>
+            <linkSitio>https://www.evaneos.es/nepal/viajes/destinos/729-tal/</linkSitio>
+            <linkSitio>https://www.youtube.com/watch?v=Zqhf4PNozgw&ab_channel=SherryOtt</linkSitio>
+            <linkSitio>https://es.wikiloc.com/rutas-senderismo/annapurna-trekking-circuit-syange-tal-30765197</linkSitio>
+        </referencias>
+        <recomendacion>6</recomendacion>
+        <hitos>
+            <hito name="Besisahar, Lamjung">
+                <descripcion>Ayuntamiento del pueblo Besisahar</descripcion>
+                <latitud>28º 14' 12.32" N</latitud>
+                <longitud>84º 22' 18.27" E</longitud>
+                <svg>
+                    <img width="1000" height="667" alt="Besisahar" src="src/besisahar.jpg"/>
+                </svg>
+            </hito>
+
+            <hito name="Chame starting point">
+                <descripcion>Rio principal</descripcion>
+                <latitud>28º 27' 13.37" N</latitud>
+                <longitud>84º 22' 6.12" E</longitud>
+                <svg>
+                    <img width="700" height="525" alt="Chame" src="src/chame.jpg"/>
+                </svg>
+            </hito>
+
+            <hito name="Puerta de entrada a Manang">
+                <descripcion>Presa situada en el rio Marsyangdi, usada para generar electricidad</descripcion>
+                <latitud>28º 27' 44.87" N</latitud>
+                <longitud>84º 22' 19.04" E</longitud>
+                <svg>
+                    <img width="1300" height="951" alt="Puerta de entrada" src="src/entrance-gate-manang.jpg"/>
+                </svg>
+            </hito>
+        </hitos>
+    </etapa>
+
+    
 </ruta>
