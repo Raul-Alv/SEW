@@ -65,21 +65,21 @@
         </referencias>
         <recomendacion>6</recomendacion>
         <hitos>
-            <hito name="Besisahar, Lamjung">
-                <descripcion>Ayuntamiento del pueblo Besisahar</descripcion>
-                <latitud>28º 14' 12.32" N</latitud>
-                <longitud>84º 22' 18.27" E</longitud>
+            <hito name="Jagat">
+                <descripcion>Pueblo en la ruta</descripcion>
+                <latitud>28º 24' 51.11" N</latitud>
+                <longitud>84º 24' 24.53" E</longitud>
                 <svg>
-                    <img width="1000" height="667" alt="Besisahar" src="src/besisahar.jpg"/>
+                    <img width="1300" height="960" alt="Jagat" src="src/jagat.jpg"/>
                 </svg>
             </hito>
 
-            <hito name="Chame starting point">
-                <descripcion>Rio principal</descripcion>
-                <latitud>28º 27' 13.37" N</latitud>
-                <longitud>84º 22' 6.12" E</longitud>
+            <hito name="Chamje">
+                <descripcion>Cascada al lado de la ruta</descripcion>
+                <latitud>28º 26' 22.75" N</latitud>
+                <longitud>84º 232' 4.61" E</longitud>
                 <svg>
-                    <img width="700" height="525" alt="Chame" src="src/chame.jpg"/>
+                    <img width="294" height="454" alt="Chamje" src="src/chamje.jpg"/>
                 </svg>
             </hito>
 
@@ -94,5 +94,51 @@
         </hitos>
     </etapa>
 
-    
+    <etapa nombre="etapa3">
+        <inicio>Tal</inicio>
+        <alturaInicial>1700m</alturaInicial>
+        <fin>Timang</fin>
+        <alturaFinal>2670m</alturaFinal>
+        <duracion>7h</duracion>
+        <personasAdecuadas>Personas deportistas</personasAdecuadas>
+        <direccionSalida>Direccion norte</direccionSalida>
+        <latitud>28º 23' 12.00" N</latitud>
+        <longitud>84º 24' 7.40" E</longitud>
+        <referencias>
+            <linkSitio>https://es.wikiloc.com/rutas-senderismo/tal-chame-21597441</linkSitio>
+            <linkSitio>https://www.youtube.com/watch?v=U9dHGC5PKM0&ab_channel=AitorAgirreLoro%C3%B1o</linkSitio>
+            <linkSitio>https://en.wikipedia.org/wiki/Chame,_Nepal</linkSitio>
+        </referencias>
+        <recomendacion>8.5</recomendacion>
+        <hitos>
+            <hito name="Khorte">
+                <descripcion>Pueblo en la ruta</descripcion>
+                <latitud>28º 29' 57.42" N</latitud>
+                <longitud>84º 21' 40.73" E</longitud>
+                <svg>
+                    <img width="1600" height="1067" alt="Khorte" src="src/khorte.jpg"/>
+                </svg>
+            </hito>
+
+            <hito name="Thonje Budhhist Monastery">
+                <descripcion>Templo budista</descripcion>
+                <latitud>28º 27' 44.87" N</latitud>
+                <longitud>84º 22' 19.04" E</longitud>
+                <svg>
+                    <img width="1300" height="951" alt="Templo budista" src="src/entrance-gate-manang.jpg"/>
+                </svg>
+            </hito>
+
+            <hito name="Chamje">
+                <descripcion>Cascada al lado de la ruta</descripcion>
+                <latitud>28º 26' 22.75" N</latitud>
+                <longitud>84º 232' 4.61" E</longitud>
+                <svg>
+                    <img width="1600" height="1067" alt="Chamje" src="src/chamje.jpg"/>
+                </svg>
+            </hito>
+
+            
+        </hitos>
+    </etapa>
 </ruta>
