@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="CalculadoraCientifica.css"/>
+        <meta charset="UTF-8">
+        <script src = "CalculadoraCientifica.js"></script>
+        <title>Calculadora Científica</title>
+    </head>
+    <body>
+        <h1>Calculadora Científica</h1>
+        <form name="calculadraCientifica">
+            <table>
+                <tr>
+                    <td colspan = "4">
+                        <input type="text" class="result" name = "result" id="result" disabled>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" class="memory" name="show" value="mrc" onclick="calcCien.mRecall()"></td>
+                    <td><input type="button" class="memory" name="addmem" value="m+" onclick="calcCien.mPlus(document.getElementById('result').value)"></td>
+                    <td><input type="button" class="memory" name="removemem" value="m-" onclick="calcCien.mMinus(result.value)"></td>
+                    <td><input type="button" class="memory" name = "clearmem" value="mc" onclick="calcCien.clearMem()"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" class="operator" name="potencia" value="x^2" onclick="calcCien.calculatePower()"></td>
+                    <td><input type="button" class="operator" name="seno" value="sin" onclick="calcCien.calculateSin()"></td>
+                    <td><input type="button" class="operator" name="coseno" value="cos" onclick="calcCien.calculateCos()"></td>
+                    <td><input type="button" class="operator" name="tangente" value="tan" onclick="calcCien.calculateTan()"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" class="operator" name="raiz" value="sqrt" onclick="calcCien.calculateSqrt()"></td>
+                    <td><input type="button" class="operator" name="log" value="log" onclick="calcCien.calculateLog()"></td>
+                    <td><input type="button" class="operator" name="ln" value="ln" onclick="calcCien.calculateLn()"></td>
+                    <td><input type="button" class="operator" name="fact" value="x!" onclick="calcCien.calculateFact()"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" class="operator" name="abrirParentesis" value="(" onclick="calcCien.displayValue('(')"></td>
+                    <td><input type="button" class="operator" name="cerrarParentesis" value=")" onclick="calcCien.displayValue(')')"></td>
+                    <td><input type="button" class="operator" name = "clear" value="C" onclick="calcCien.clearAll()"></td>
+                    <td><input type="button" class="operator" name = "division" value="/" onclick="calcCien.displayValue('/')"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" class="numbers" name = "seven" value="7" onclick="calcCien.displayValue('7')"></td>
+                    <td><input type="button" class="numbers" name = "eight" value="8" onclick="calcCien.displayValue('8')"></td>
+                    <td><input type="button" class="numbers" name = "nine" value="9" onclick="calcCien.displayValue('9')"></td>
+                    <td><input type="button" class="operator" name = "multiplication" value="*" 
+                        onclick="calcCien.displayValue('*')"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="button" class="numbers" name = "four" value="4" onclick="calcCien.displayValue('4')"></td>
+                    <td><input type="button" class="numbers" name = "five" value="5" onclick="calcCien.displayValue('5')"></td>
+                    <td><input type="button" class="numbers" name = "six" value="6" onclick="calcCien.displayValue('6')"></td>
+                    <td><input type="button" class="operator" name = "minus" value="-" 
+                        onclick="calcCien.displayValue('-')"></td>
+                </tr>
+                
+                <tr>
+                    <td><input type="button" class="numbers" name = "one" value="1" onclick="calcCien.displayValue('1')"></td>
+                    <td><input type="button" class="numbers" name = "two" value="2" onclick="calcCien.displayValue('2')"></td>
+                    <td><input type="button" class="numbers" name = "three" value="3" onclick="calcCien.displayValue('3')"></td>
+                    <td><input type="button" class="operator" name = "sum" value="+" 
+                        onclick="calcCien.displayValue('+')"></td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="button" class="numbers" name = "zero" value="0" onclick="calcCien.displayValue('0')"></td>
+                    <td><input type="button" class="numbers" name = "dot" value="." onclick="calcCien.displayValue('.')"></td>
+                    <td><input type="button" class="operator" name = "equals" value="=" 
+                        onclick="calcCien.calculateResult()"></td>
+                </tr>
+            </table>
+        </form>
+        <p>
+            <a href="http://validator.w3.org/check/referer" hreflang="en-us">
+                <img src="valid-html5-button.png" alt="¡HTML5 válido!" height="31" width="88">
+            </a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="¡CSS Válido!" />
+            </a>
+        </p>
+    </body>   
+</html>
